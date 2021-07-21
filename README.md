@@ -11,7 +11,7 @@
 
 ## Usage
 
-- Using **published**. version 
+### Using **published**. version 
 
 There is already a published version on npm, as `ad-test-select` 
 - add to your project with `yarn add ad-test-select`
@@ -20,6 +20,7 @@ import { Select } from 'ad-test-select'
 
 `<Select {...propsHere}/>`
 
+### Publishing your own version 
 If you want to publish your own package with some changes you can follow below steps
 
 - change the package name in package.json
@@ -34,9 +35,9 @@ import { Select } from ${your_package_name}
 
 `<Select {...propsHere}/>`
 
-- Using **local**. version 
+### Using **local**. version 
 
- - to test **local** version without publising 
+ - to test **local** build version without publising it to npm
    - - cd ad-test-select
    - - yarn build
    - - yarn link
